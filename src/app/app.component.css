@@ -1,0 +1,25 @@
+h1 {
+  color: rgb(214, 255, 118);
+}
+
+#title-div {
+  background-color: #2dfc2b;
+  margin: auto;
+  height: 50px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+#main-div {
+  max-width: 1000px;
+  margin: 100px auto auto auto;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
+
+.sidebar-separator{
+  float: left;
+  width: 3px;
+  height: 80%;
+  background-color: green;
+}

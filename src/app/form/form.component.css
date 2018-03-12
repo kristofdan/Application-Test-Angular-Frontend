@@ -1,0 +1,12 @@
+#task-adding-form{
+  margin-top: 40px;
+}
+
+#title {
+  margin-bottom: 40px;
+}
+
+#submit-button, #cancel-button {
+  margin: 30px 0px 20px 60px;
+  width: 80px;
+}

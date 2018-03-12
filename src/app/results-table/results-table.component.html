@@ -1,0 +1,14 @@
+<h3 id="title">Results</h3>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th id="second-column">Number of occurrences</th>
+    </tr>
+  </thead>
+  <tr *ngFor="let person of result">
+    <td class="name-cell">{{person.name}}</td>
+    <td class="occurrence-cell">{{person.numberOfOccurrences}}</td>
+  </tr>
+</table>

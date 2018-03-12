@@ -1,0 +1,25 @@
+<form id="filtering-conditions-form" class="form-horizontal"
+      #filteringConditionsForm="ngForm" (ngSubmit)="onSubmit()">
+  <h3 id="title">Filtering conditions</h3>
+  <div class="form-group">
+    <label class="control-label col-sm-3" for="prefix">Starting with</label>
+    <div class="col-sm-9">
+      <input type="text" id="prefix" class="form-control" name="prefix"
+             [(ngModel)]="requiredPrefix">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-3" for="ordering">Order by</label>
+    <div class="col-sm-9">
+      <select id="ordering" class="form-control" name="ordering"
+              [(ngModel)]="ordering">
+        <option>Name</option>
+        <option>Number of occurrences</option>
+      </select>
+    </div>
+  </div>
+  <button type="submit" id="submit-button" class="btn btn-default">Submit</button>
+  <button type="reset" id="cancel-button" class="btn btn-default">Cancel</button>
+
+  <p>{{submittedText}}</p>
+</form>

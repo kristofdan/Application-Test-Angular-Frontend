@@ -1,0 +1,15 @@
+th {
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 40px;
+}
+
+.name-cell {
+  text-align: left;
+}
+
+.occurrence-cell {
+  text-align: center;
+}

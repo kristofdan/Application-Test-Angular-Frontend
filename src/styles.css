@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+h1, h2, h3 {
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(144, 238, 144, 0.63);
+  /*background: linear-gradient(to bottom left, lightgray, rgba(144, 238, 144, 0.71));*/
+}
