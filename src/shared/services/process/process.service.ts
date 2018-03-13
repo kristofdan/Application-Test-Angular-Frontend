@@ -14,7 +14,7 @@ export class ProcessService {
 
     const headers = new HttpHeaders().set("Access-Control-Allow-Origin", "*");
 
-    return this.http.get<Person[]>('http://localhost:8080/XMLprocessor/data',
+    return this.http.get<Person[]>('http://localhost:9080/XMLprocessor/data',
       { headers, params });
 
   }
